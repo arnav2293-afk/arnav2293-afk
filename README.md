@@ -37,7 +37,7 @@ No-code mobile app built with Google AppSheet and a QR Code API, with live Googl
 
 ## Skills
 
-**Languages and Databases:** C, C++, Python, TypeScript, SQL (CREATE, ALTER, INSERT, UPDATE, SELECT), Firebase Firestore
+**Languages and Databases:** C, C++, Python, TypeScript, MySQL (CREATE, ALTER, INSERT, UPDATE, SELECT), Firebase Firestore
 **Web and Tools:** React, Tailwind CSS, Streamlit, REST APIs, Docker, Git, GitHub Actions
 **Security and Networking:** Password hashing, TLS, X.509 certificates, access control, MQTT, Wireshark
 **AI and Data:** RAG, LLM APIs, FAISS, scikit-learn, pandas, NumPy, Power BI, Matplotlib, Seaborn
