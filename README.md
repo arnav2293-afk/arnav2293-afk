@@ -1,6 +1,6 @@
 # Hi, I'm Arnav Shahi
 
-B.Tech AIML and Data Science student at Symbiosis Institute of Technology, Indore, and Data Analyst Intern at Encode AI. I build things that work in the real world: a live AI chatbot, an automated AI resume screener, a secured IoT system and a live tournament website.
+B.Tech AIML student at Symbiosis Institute of Technology, Indore, and Data Analyst Intern at Encode AI. I build things that work in the real world: a live AI chatbot, an automated AI resume screener, a secured IoT system and a live tournament website.
 
 ## Projects
 
