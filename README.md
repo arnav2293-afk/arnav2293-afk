@@ -1,6 +1,6 @@
 # Hi, I'm Arnav Shahi
 
-B.Tech AIML and Data Science student at Symbiosis Institute of Technology, Indore, and Data Analyst Intern at Encode AI. I build things that work in the real world: a live AI chatbot, a secured IoT system and a live tournament website.
+B.Tech AIML and Data Science student at Symbiosis Institute of Technology, Indore, and Data Analyst Intern at Encode AI. I build things that work in the real world: a live AI chatbot, an automated AI resume screener, a secured IoT system and a live tournament website.
 
 ## Projects
 
@@ -12,6 +12,16 @@ Upload a PDF, ask questions, and get answers with page-level citations.
 
 **Tech:** Python, FAISS, BM25, sentence-transformers, Groq and Gemini APIs, Streamlit
 [Live Demo](https://ask-your-pdf-arnav.streamlit.app) | [Code](https://github.com/arnav2293-afk/ask-your-pdf-rag)
+
+### AI Resume Screener: Automated n8n Workflow
+Email a PDF resume and it is scored against a job description and logged to Google Sheets automatically.
+- n8n pipeline: Gmail trigger, PDF text extraction, LLM scoring and Google Sheets logging
+- The LLM returns strict JSON (score 0–100, summary, top and missing skills, Shortlist / Maybe / Reject), and a Code node validates it and flags bad replies as `NEEDS MANUAL REVIEW`
+- Append-or-update matched on email, so a candidate who applies twice still gets one row
+- Runs on Gemini's free tier, with a ready Claude API version that shares the same prompt and parsing code
+
+**Tech:** n8n, Python, Gemini and Claude APIs, Gmail, Google Sheets
+[Code](https://github.com/arnav2293-afk/ai-resume-screener)
 
 ### Securing an IoT Sensor on MQTT
 A simulated temperature sensor sends readings to an MQTT broker. I proved in Wireshark that the open setup leaked data and passwords, then locked it down step by step.
@@ -38,7 +48,7 @@ No-code mobile app built with Google AppSheet and a QR Code API, with live Googl
 ## Skills
 
 **Languages and Databases:** C, C++, Python, TypeScript, MySQL (CREATE, ALTER, INSERT, UPDATE, SELECT), Firebase Firestore
-**Web and Tools:** React, Tailwind CSS, Streamlit, REST APIs, Docker, Git, GitHub Actions
+**Web and Tools:** React, Tailwind CSS, Streamlit, REST APIs, n8n, Docker, Git, GitHub Actions
 **Security and Networking:** Password hashing, TLS, X.509 certificates, access control, MQTT, Wireshark
 **AI and Data:** RAG, LLM APIs, FAISS, scikit-learn, pandas, NumPy, Power BI, Matplotlib, Seaborn
 
