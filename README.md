@@ -1,6 +1,6 @@
 # Hi, I'm Arnav Shahi
 
-B.Tech AIML student at Symbiosis Institute of Technology, Indore, and Data Analyst Intern at Encode AI. I build things that work in the real world: a live AI chatbot, an automated AI resume screener, a secured IoT system and a live tournament website.
+B.Tech AIML student at Symbiosis Institute of Technology, Indore, and Data Analyst Intern at Encode AI. I build things that work in the real world: a live AI chatbot, an automated AI resume screener, a secured IoT system, a live tournament website and a company ID checker.
 
 ## Projects
 
@@ -42,13 +42,23 @@ Players register and follow live scores and brackets on their phones.
 **Tech:** React, TypeScript, Tailwind CSS, Firebase, GitHub Actions, GitHub Pages
 [Live Site](https://picklerizzrally.github.io/)
 
+### CIN & LLPIN Checker
+Paste a list of Indian company IDs (CINs) and LLP IDs (LLPINs) and see which are valid, exactly what is wrong with the rest, and what each one means.
+- Plain-English errors that name the characters at fault, plus one-click fixes for common typos (letter O for zero, `OD` for `OR`)
+- Amber warnings when the format is valid but breaks company law, such as a listed one-person company (Companies Act 2013)
+- Handles 5,000 IDs per check, with summary tiles, filters, problems sorted first and Excel-safe CSV export
+- 32 unit tests, dark mode, phone layout and WCAG AA contrast, with no build step or dependencies
+
+**Tech:** JavaScript, HTML, CSS, Node test runner, Figma, GitHub Pages
+[Live Site](https://arnav2293-afk.github.io/cin-llpin-checker/) | [Code](https://github.com/arnav2293-afk/cin-llpin-checker)
+
 ### QR Code Attendance Mobile App
 No-code mobile app built with Google AppSheet and a QR Code API, with live Google Sheets sync. Cut attendance marking for a 40+ student class from 5+ minutes to under 30 seconds.
 
 ## Skills
 
-**Languages and Databases:** C, C++, Python, TypeScript, MySQL (CREATE, ALTER, INSERT, UPDATE, SELECT), Firebase Firestore
-**Web and Tools:** React, Tailwind CSS, Streamlit, REST APIs, n8n, Docker, Git, GitHub Actions
+**Languages and Databases:** C, C++, Python, JavaScript, TypeScript, MySQL (CREATE, ALTER, INSERT, UPDATE, SELECT), Firebase Firestore
+**Web and Tools:** React, Tailwind CSS, Streamlit, REST APIs, n8n, Docker, Git, GitHub Actions, Figma
 **Security and Networking:** Password hashing, TLS, X.509 certificates, access control, MQTT, Wireshark
 **AI and Data:** RAG, LLM APIs, FAISS, scikit-learn, pandas, NumPy, Power BI, Matplotlib, Seaborn
 
