@@ -1,6 +1,6 @@
 # Hi, I'm Arnav Shahi
 
-B.Tech AIML student at Symbiosis Institute of Technology, Indore, and Data Analyst Intern at Encode AI. I build things that work in the real world: a live AI chatbot, an automated AI resume screener, a secured IoT system, a live tournament website and a company ID checker.
+B.Tech AIML student at Symbiosis Institute of Technology, Indore, and Data Analyst Intern at Encode AI. I build things that work in the real world: a live AI chatbot, an automated AI resume screener, a secured IoT system, a live tournament website, a company ID checker and a campus resource exchange.
 
 ## Projects
 
@@ -22,6 +22,16 @@ Email a PDF resume and it is scored against a job description and logged to Goog
 
 **Tech:** n8n, Python, Gemini and Claude APIs, Gmail, Google Sheets
 [Code](https://github.com/arnav2293-afk/ai-resume-screener)
+
+### ReLoop: Circular Resource Exchange for Campuses
+One platform for a college's used oil, e-waste and rooftop rainwater, with a single dashboard for revenue, compliance and impact.
+- Oil Exchange: departments list used oil by type and grade, get a suggested price, and only FSSAI-licensed buyers can bid
+- E-Waste Market: each item is triaged to resell, repair, donate or recycle, sold to CPCB-registered recyclers and verified buyers
+- Rainwater: harvest potential and required tank size per building from roof area and rainfall
+- Pickup scheduling with verification on arrival, auto-generated FSSAI and CPCB compliance certificates, and monthly CSR/ESG reports (PDF and CSV)
+
+**Tech:** Next.js, React, TypeScript, PostgreSQL, Tailwind CSS, Vercel
+[Live Demo](https://reloop-tan.vercel.app) | [Code](https://github.com/arnav2293-afk/reloop)
 
 ### Securing an IoT Sensor on MQTT
 A simulated temperature sensor sends readings to an MQTT broker. I proved in Wireshark that the open setup leaked data and passwords, then locked it down step by step.
@@ -58,7 +68,7 @@ No-code mobile app built with Google AppSheet and a QR Code API, with live Googl
 ## Skills
 
 **Languages and Databases:** C, C++, Python, JavaScript, TypeScript, MySQL (CREATE, ALTER, INSERT, UPDATE, SELECT), Firebase Firestore
-**Web and Tools:** React, Tailwind CSS, Streamlit, REST APIs, n8n, Docker, Git, GitHub Actions, Figma
+**Web and Tools:** React, Next.js, Tailwind CSS, PostgreSQL, Streamlit, REST APIs, n8n, Docker, Git, GitHub Actions, Figma
 **Security and Networking:** Password hashing, TLS, X.509 certificates, access control, MQTT, Wireshark
 **AI and Data:** RAG, LLM APIs, FAISS, scikit-learn, pandas, NumPy, Power BI, Matplotlib, Seaborn
 
